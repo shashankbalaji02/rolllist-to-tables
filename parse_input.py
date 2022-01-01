@@ -2,7 +2,7 @@ import argparse
 import os
 from functools import reduce
 
-supported_years = [2019, 2020, 2021]
+supported_years = [2018, 2019, 2020, 2021]
 year_string = reduce(lambda s, i: str(s) + ", " + str(i), supported_years)
 
 def year(y):
